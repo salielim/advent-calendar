@@ -47,8 +47,8 @@ special.onclick = (event) => {
 }
 
 // Modal
-var modal = document.getElementById('giftModal');
-var span = document.getElementsByClassName("close")[0];
+const modal = document.getElementById('giftModal');
+const span = document.getElementsByClassName("close")[0];
 
 // close modal when x clicked
 span.onclick = function() {
@@ -61,3 +61,23 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+// Countdown timer
+const countDownTime = todaysDate.setHours(24,0,0,0); // count to midnight
+
+const x = setInterval(function() {
+    const now = new Date().getTime(); // time now
+    const distance = countDownTime - now; // between now & countdown time
+    
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); // time calculations
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("countdown-timer").innerHTML = hours + "h : "
+    + minutes + "m : " + seconds + "s "; // show timer on UI
+    
+    if (distance < 0) { // countdown over
+        clearInterval(x);
+        document.getElementById("countdown-timer").innerHTML = "EXPIRED";
+    }
+}, 1000);
