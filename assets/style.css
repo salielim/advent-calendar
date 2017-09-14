@@ -1,0 +1,98 @@
+/* Containers */
+.banner-container {
+  margin: 87px 157px 10px 158px;
+}
+
+/* Images */
+.banner-img {
+	height: 400px;
+	width: 1124.98px;
+}
+
+.lipstick-img {
+  height: 282px;
+  width: 282px;
+  border: 0.3px solid #CCCCCC;
+}
+
+/* Box Grid */
+.wrapper {
+  margin: 35px 157px 35px 158px;
+  display: grid;
+  grid-template-columns: 282px 282px;
+  grid-gap: 0px 0px;
+}
+
+.one {
+  height: 282px;
+	width: 282px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.two { 
+  height: 282px;
+	width: 282px;
+  grid-column: 2;
+  grid-row: 1;
+}
+.three {
+  height: 282px;
+	width: 282px;
+	
+  grid-column: 3;
+  grid-row: 1;
+}
+.four {
+  height: 282px;
+	width: 282px;
+  grid-column: 4;
+  grid-row: 1;
+}
+.five {
+  height: 282px;
+	width: 282px;
+  grid-column: 1;
+  grid-row: 2;
+}
+.six {
+  height: 282px;
+	width: 282px;
+  grid-column: 2;
+  grid-row: 2;
+}
+.seven {
+  height: 282px;
+	width: 282px;
+  grid-column: 3;
+  grid-row: 2;
+}
+.eight {
+  height: 282px;
+	width: 282px;
+  grid-column: 4;
+  grid-row: 2;
+}
+.nine {
+  height: 282px;
+	width: 282px;
+  grid-column: 1;
+  grid-row: 3;
+}
+.ten {
+  height: 282px;
+	width: 282px;
+  grid-column: 2;
+  grid-row: 3;
+}
+.eleven {
+  height: 282px;
+	width: 282px;
+  grid-column: 3;
+  grid-row: 3;
+}
+.twelve {
+  height: 282px;
+	width: 282px;
+  grid-column: 4;
+  grid-row: 3;
+}
