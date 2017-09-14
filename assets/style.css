@@ -1,6 +1,47 @@
+/* Typography */
+h3 {
+  margin: 0px 157px 25px 158px;
+	height: 13px;
+	width: 545px;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 13px;
+}
+
+.text-left {
+  margin-left: 157px;
+  height: 102px;
+  width: 556px;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.text-right {
+  margin-left: 30px;
+  height: 102px;
+  width: 556px;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17px;
+  text-align: left;
+}
+
 /* Containers */
 .banner-container {
   margin: 87px 157px 10px 158px;
+}
+
+.seo-text-container {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Images */
@@ -17,7 +58,7 @@
 
 /* Box Grid */
 .wrapper {
-  margin: 35px 157px 35px 158px;
+  margin: 35px 157px 50px 158px;
   display: grid;
   grid-template-columns: 282px 282px;
   grid-gap: 0px 0px;
