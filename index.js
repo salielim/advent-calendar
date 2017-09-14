@@ -1,3 +1,4 @@
+// Box Grid
 const todaysDate = new Date();
 const todaysDay = todaysDate.getDate();
 
@@ -37,9 +38,26 @@ boxGrid.insertAdjacentHTML('afterbegin', newHtml);
 const special = document.getElementById('todays-box');
 
 special.onclick = (event) => {
-    const specialDiv = event.target
-    specialDiv.classList.toggle('numbers');
-    specialDiv.classList.toggle('hide-number');
-    specialDiv.classList.toggle('snowflakes');
-    specialDiv.classList.toggle('lipstick-show');
-  }
+  const specialDiv = event.target
+  specialDiv.classList.toggle('numbers');
+  specialDiv.classList.toggle('hide-number');
+  specialDiv.classList.toggle('snowflakes');
+  specialDiv.classList.toggle('lipstick-show');
+  modal.style.display = "block";
+}
+
+// Modal
+var modal = document.getElementById('giftModal');
+var span = document.getElementsByClassName("close")[0];
+
+// close modal when x clicked
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// close modal when anywhere ourside modal clicked
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
