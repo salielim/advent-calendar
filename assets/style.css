@@ -50,7 +50,13 @@ h3 {
 	width: 1124.98px;
 }
 
-.lipstick-img {
+.lipstick-hide {
+  height: 282px;
+  width: 282px;
+  border: 0.3px solid #CCCCCC;
+}
+
+.lipstick-show {
   height: 282px;
   width: 282px;
   border: 0.3px solid #CCCCCC;
