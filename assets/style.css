@@ -5,46 +5,39 @@
   /* Typography */
   h3 {
     margin-left: 5% !important;
-    width: 295px !important;
+    width: 100% !important;
     font-size: 10px !important;
   }
 
   h4 {
-    font-size: 30px !important;
+    font-size: 35px !important;
     margin-top: -15px;
   }
 
   p {
-    font-size: 10px !important;
-    margin-top: -8px;
+    font-size: 15px !important;
   }
 
   .text-left {
     margin-left: 5% !important;
-    margin-bottom: 15% !important;
-    width: 295px !important;
+    padding-right: 5% !important;
+    width: 100% !important;
     font-size: 10px !important;
   }
   
   .text-right {
     margin-left: 5% !important;
-    margin-bottom: 15% !important;
-    width: 295px !important;
+    padding-right: 5% !important;
+    width: 100% !important;
     font-size: 10px !important;
-  }
-
-  .bold-text {
-    margin-top: -20px !important;
-  }
-
-  .tnc {
-    margin-top: 10px !important;
   }
   
   /* Containers */
   .advent-container {
     margin-top: 0 !important;
     margin-left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   .seo-text-container {
@@ -58,37 +51,45 @@
 
   /* Images */
   .banner-img {
-    margin: 5% !important;
-    width: 295px !important;
-    height: 110px !important;
+    padding: 2% !important;
+    width: 105% !important;
+    height: 30% !important;
   }
 
   .lipstick-hide {
-    background-size: 150px !important;
+    background-size: 100% !important;
   }
   
   .lipstick-show {
-    background-size: 150px !important;
+    background-size: 100% !important;
+  }
+
+  .lipstick-mobile-img {
+    width: 100% !important;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px !important;
+    border: 0.3px solid #CCCCCC;
   }
 
   .lipstick-modal-img {
-    width: 295px !important;
-    height: 295px !important;
+    width: 100% !important;
+    height: auto !important;
   }
 
   .snowflakes {
-    background-size: 150px !important;
+    background-size: 100% !important;
   }
 
   /* Box Grid */
   #box-grid {
-    width: 295px !important;
-    margin-left: 5% !important;
+    width: 101% !important;
+    margin-left: 2% !important;
   }
   
   .box {
     width: 50% !important;
-    height: 148px !important;
+    height: 180px !important;
   }
 
   .numbers {
@@ -98,15 +99,14 @@
 
   /* Modal */
   .modal {
-    width: 312px !important;
-    height: 3000px !important;
+    width: 100% !important;
+    height: auto !important;
   }
 
   .modal-content {
     overflow-y: auto;
-    width: 300px !important;
+    width: 96% !important;
     flex-direction: column !important;
-    height: 3000px !important;
     min-height: 100% !important;
     margin: 2% !important;
     top: 0 !important;
@@ -115,15 +115,12 @@
 
   /* Promo Code Box */
   .code-box {
-    margin-left: 70px !important;
-    margin-top: 10px !important;
-    transform: scale(0.7);
-    transform-origin: 0 0;
+    margin: 7% !important;
   }
 
   .close {
-    margin-top: -600px !important;
-    margin-left: 260px !important;
+    margin-top: -235% !important;
+    margin-left: 88% !important;
   }
 }
 
@@ -293,7 +290,7 @@ p {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
