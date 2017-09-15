@@ -1,16 +1,116 @@
 @media screen and (max-width: 500px) /* Mobile */ {
 
-  .banner-container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left:0px;
-    padding-right:0px;
+  .advent-container {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
   }
 
-
   .banner-img {
-    transform: scale(0.25);
-    transform-origin: left;
+    margin: 5% !important;
+    width: 295px !important;
+    height: 110px !important;
+  }
+
+  #box-grid {
+    width: 295px !important;
+    margin-left: 5% !important;
+  }
+  
+  .box {
+    width: 50% !important;
+    height: 148px !important;
+  }
+
+  .lipstick-hide {
+    background-size: 150px !important;
+  }
+  
+  .lipstick-show {
+    background-size: 150px !important;
+  }
+
+  .snowflakes {
+    background-size: 150px !important;
+  }
+
+  .numbers {
+    font-size: 50px !important;
+    padding-top: 0px !important;
+  }
+
+  .seo-text-container {
+    margin-bottom: 35px;
+    flex-direction: column !important;
+  }
+
+  h3 {
+    margin-left: 5% !important;
+    width: 295px !important;
+    font-size: 10px !important;
+  }
+
+  h4 {
+    font-size: 30px !important;
+    margin-top: -15px;
+  }
+
+  p {
+    font-size: 10px !important;
+    margin-top: -8px;
+  }
+
+  .bold-text {
+    margin-top: -20px !important;
+  }
+
+  .tnc {
+    margin-top: 10px !important;
+  }
+  
+  .text-left {
+    margin-left: 5% !important;
+    margin-bottom: 15% !important;
+    width: 295px !important;
+    font-size: 10px !important;
+  }
+  
+  .text-right {
+    margin-left: 5% !important;
+    margin-bottom: 15% !important;
+    width: 295px !important;
+    font-size: 10px !important;
+  }
+
+  .modal {
+    width: 312px !important;
+    height: 3000px !important;
+  }
+
+  .modal-content {
+    overflow-y: auto;
+    width: 300px !important;
+    flex-direction: column !important;
+    height: 3000px !important;
+    min-height: 100% !important;
+    margin: 2% !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  .lipstick-modal-img {
+    width: 295px !important;
+    height: 295px !important;
+  }
+
+  .gift-container {
+    margin-left: 1% !important;
+  }
+
+  .code-box {
+    margin-left: 70px !important;
+    margin-top: 10px !important;
+    transform: scale(0.7);
+    transform-origin: 0 0;
   }
 }
 
@@ -35,10 +135,10 @@ h4 {
 
 .text-left {
   height: 102px;
-  width: 556px;
+  width: 670px;
   color: #000000;
   font-family: Verdana;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 17px;
 }
@@ -46,10 +146,10 @@ h4 {
 .text-right {
   margin-left: 30px;
   height: 102px;
-  width: 556px;
+  width: 670px;
   color: #000000;
   font-family: Verdana;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 17px;
   text-align: left;
@@ -162,29 +262,24 @@ p {
 
 /* Images */
 .banner-img {
-	height: 400px;
-  width: 1086px;
+	height: 500px;
+  width: 1365px;
   margin-left: -1px;
 }
 
 .lipstick-hide {
   background: url(images/lipstick-hide.png);
-  background-size: 282px 282px;
+  background-size: 310px;
 }
 
 .lipstick-show {
   background: url(images/lipstick-show.png);
-  background-size: 282px 282px;
-}
-
-.lipstick-modal {
-  width: 450px;
-  height: 450px;
+  background-size: 310px;
 }
 
 .snowflakes {
   background: url(images/snowflakes.png);
-  background-size: 282px 282px;
+  background-size: 310px;
 }
 
 .snowflakes:hover {
@@ -198,15 +293,11 @@ p {
   flex-wrap: wrap;
 }
 
-.gift-box {
-  height: 282px;
-  width: 282px;
-  border: 0.3px solid #CCCCCC;
-}
-
 .box {
   width: 25%;
+  height: 310px;
   box-sizing: border-box;
+  border: 0.3px solid #CCCCCC;
 }
 
 .numbers {
@@ -218,7 +309,7 @@ p {
   letter-spacing: 2px;
   line-height: 144px;
   text-align: center;
-  padding-top: 66px;
+  padding-top: 75px;
 }
 
 .hide-number {
@@ -237,6 +328,11 @@ p {
   overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
+}
+
+.lipstick-modal-img {
+  width: 450px;
+  height: 450px;
 }
 
 /* Modal Content Box */
