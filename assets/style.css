@@ -4,7 +4,7 @@
 @media screen and (max-width: 500px) {
   /* Typography */
   h3 {
-    margin-left: 5% !important;
+    margin-left: 3% !important;
     width: 100% !important;
     font-size: 10px !important;
   }
@@ -19,16 +19,16 @@
   }
 
   .text-left {
-    margin-left: 5% !important;
-    padding-right: 5% !important;
-    width: 100% !important;
+    margin-left: 3% !important;
+    padding-right: 3% !important;
+    width: 94% !important;
     font-size: 10px !important;
   }
   
   .text-right {
-    margin-left: 5% !important;
-    padding-right: 5% !important;
-    width: 100% !important;
+    margin-left: 2% !important;
+    padding-right: 2% !important;
+    width: 96% !important;
     font-size: 10px !important;
   }
   
@@ -52,7 +52,7 @@
   /* Images */
   .banner-img {
     padding: 2% !important;
-    width: 105% !important;
+    width: 100% !important;
     height: 30% !important;
   }
 
@@ -65,9 +65,9 @@
   }
 
   .lipstick-mobile-img {
-    width: 100% !important;
+    width: 96% !important;
     height: auto;
-    margin-left: 10px;
+    margin-left: 2% !important;
     margin-bottom: 10px !important;
     border: 0.3px solid #CCCCCC;
   }
@@ -83,7 +83,7 @@
 
   /* Box Grid */
   #box-grid {
-    width: 101% !important;
+    width: 96% !important;
     margin-left: 2% !important;
   }
   
@@ -99,7 +99,7 @@
 
   /* Modal */
   .modal {
-    width: 100% !important;
+    width: 96% !important;
     height: auto !important;
   }
 
@@ -109,6 +109,7 @@
     flex-direction: column !important;
     min-height: 100% !important;
     margin: 2% !important;
+    padding: 5% !important;
     top: 0 !important;
     left: 0 !important;
   }
@@ -119,8 +120,9 @@
   }
 
   .close {
-    margin-top: -235% !important;
-    margin-left: 88% !important;
+    position: absolute;
+    left: 87%;
+    top: 1%;
   }
 }
 
