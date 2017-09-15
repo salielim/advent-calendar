@@ -18,6 +18,7 @@ for (let i = 1; i < 25; i++) {
 
 boxGrid.insertAdjacentHTML("afterbegin", newHtml);
 const special = document.getElementById("todays-box");
+const specialMobile = document.getElementById("todays-box-mobile");
 
 special.onclick = (event) => {
   const specialDiv = event.target
@@ -25,6 +26,11 @@ special.onclick = (event) => {
   specialDiv.classList.toggle("hide-number");
   specialDiv.classList.toggle("snowflakes");
   specialDiv.classList.toggle("lipstick-show");
+  modal.style.display = "block";
+}
+
+specialMobile.onclick = (event) => {
+  const specialDiv = event.target
   modal.style.display = "block";
 }
 
