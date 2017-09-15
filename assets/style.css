@@ -1,6 +1,21 @@
+@media screen and (max-width: 500px) /* Mobile */ {
+
+  .banner-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+
+  .banner-img {
+    transform: scale(0.25);
+    transform-origin: left;
+  }
+}
+
 /* Typography */
 h3 {
-  margin: 0px 157px 25px 158px;
 	height: 13px;
 	width: 545px;
 	color: #000000;
@@ -19,7 +34,6 @@ h4 {
 }
 
 .text-left {
-  margin-left: 157px;
   height: 102px;
   width: 556px;
   color: #000000;
@@ -74,7 +88,7 @@ p {
 }
 
 /* Containers */
-.banner-container {
+.advent-container {
   margin: 87px 157px 10px 158px;
 }
 
@@ -90,6 +104,7 @@ p {
   text-align: center;
 }
 
+/* Promo Code Box */
 .code-box {
   display: flex;
   flex-direction: row;
@@ -148,7 +163,8 @@ p {
 /* Images */
 .banner-img {
 	height: 400px;
-	width: 1124.98px;
+  width: 1086px;
+  margin-left: -1px;
 }
 
 .lipstick-hide {
@@ -177,10 +193,9 @@ p {
 
 /* Box Grid */
 #box-grid {
-  margin: 35px 157px 50px 158px;
-  display: grid;
-  grid-template-columns: 282px 282px;
-  grid-gap: 0px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .gift-box {
@@ -189,69 +204,9 @@ p {
   border: 0.3px solid #CCCCCC;
 }
 
-.one {
-  grid-column: 1;
-  grid-row: 1;
-}
-.two { 
-  grid-column: 2;
-  grid-row: 1;
-}
-.three {
-  grid-column: 3;
-  grid-row: 1;
-}
-.four {
-  grid-column: 4;
-  grid-row: 1;
-}
-.five {
-  grid-column: 1;
-  grid-row: 2;
-}
-.six {
-  grid-column: 2;
-  grid-row: 2;
-}
-.seven {
-  grid-column: 3;
-  grid-row: 2;
-}
-.eight {
-  grid-column: 4;
-  grid-row: 2;
-}
-.nine {
-  grid-column: 1;
-  grid-row: 3;
-}
-.ten {
-  grid-column: 2;
-  grid-row: 3;
-}
-.eleven {
-  grid-column: 3;
-  grid-row: 3;
-}
-.twelve {
-  grid-column: 4;
-  grid-row: 3;
-}
-.thirteen {
-  grid-column: 1;
-  grid-row: 4;
-}
-.fourteen {
-  grid-column: 2;
-  grid-row: 4;
-}
-.fifteen {
-  grid-column: 3;
-  grid-row: 4;
-}
-.sixteen {
-  grid-column: 4;
-  grid-row: 4;
+.box {
+  width: 25%;
+  box-sizing: border-box;
 }
 
 .numbers {
