@@ -20,11 +20,18 @@ const numberToWords = {
   14: "fourteen",
   15: "fifteen",
   16: "sixteen",
-  17: "seventeen"
+  17: "seventeen",
+  18: "eighteen",
+  19: "nineteen",
+  20: "twenty",
+  21: "twentyone",
+  22: "twentytwo",
+  23: "twentythree",
+  24: "twentyfour"
 };
 let newHtml = ""
 
-for (let i = 1; i < 17; i++) {
+for (let i = 1; i < 25; i++) {
   if (todaysDay > i) {
     newHtml += `<div class="${numberToWords[i]} gift-box lipstick-hide"></div>`
   } else if (todaysDay === i) {
@@ -51,7 +58,7 @@ const modal = document.getElementById("giftModal");
 const span = document.getElementsByClassName("close")[0];
 
 span.onclick = function () {
-  modal.style.display = "none"; // close modal when x clicked
+  modal.style.display = "none"; // close when x clicked
 }
 
 window.onclick = function (event) {
@@ -64,15 +71,15 @@ window.onclick = function (event) {
 const countDownTime = todaysDate.setHours(24, 0, 0, 0); // count to midnight
 
 const x = setInterval(function () {
-  const now = new Date().getTime(); // time now
-  const distance = countDownTime - now; // between now & countdown time
+  const now = new Date().getTime();
+  const distance = countDownTime - now;
 
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); // time calculations
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   document.getElementById("countdown-timer").innerHTML = hours + "h : "
-    + minutes + "m : " + seconds + "s "; // show timer on UI
+    + minutes + "m : " + seconds + "s ";
 
   if (distance < 0) { // countdown over
     clearInterval(x);

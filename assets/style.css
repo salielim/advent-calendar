@@ -293,12 +293,10 @@ p {
   width: 900px;
   display: flex;
   flex-direction: row;
-  
   /* remove radius */
   -webkit-border-radius: 0px !important;
   -moz-border-radius: 0px !important;
   border-radius: 0px !important; 
-
   /* remove shadow */
   -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
   -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
