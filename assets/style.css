@@ -352,7 +352,6 @@ p {
 .banner-img {
   width: 100%;
   height: auto;
-  margin-left: -1px;
 }
 
 .lipstick-hide-img {
@@ -386,11 +385,12 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 1px;
 }
 
 .box {
   width: 25%;
-  height: 320px;
+  height: 310px;
   box-sizing: border-box;
   border: 0.3px solid #CCCCCC;
 }
