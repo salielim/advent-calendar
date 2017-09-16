@@ -350,8 +350,8 @@ p {
 /* IMAGES */
 /* ------ */
 .banner-img {
-	height: 500px;
-  width: 1365px;
+  width: 100%;
+  height: auto;
   margin-left: -1px;
 }
 
@@ -390,7 +390,7 @@ p {
 
 .box {
   width: 25%;
-  height: 310px;
+  height: 320px;
   box-sizing: border-box;
   border: 0.3px solid #CCCCCC;
 }
