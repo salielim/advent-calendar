@@ -8,11 +8,11 @@ let newHtml = ""
 
 for (let i = 1; i < 25; i++) {
   if (todaysDay > i) {
-    newHtml += `<div class="box lipstick-hide"></div>`
+    newHtml += `<div class="box lipstick-hide-img"></div>`
   } else if (todaysDay === i) {
-    newHtml += `<div id="todays-box" class="box snowflakes numbers">${i}</div>`
+    newHtml += `<div id="todays-box" class="box snowflakes-img box-numbers">${i}</div>`
   } else {
-    newHtml += `<div class="box numbers">${i}</div>`
+    newHtml += `<div class="box box-numbers">${i}</div>`
   }
 };
 
@@ -22,10 +22,10 @@ const specialMobile = document.getElementById("todays-box-mobile");
 
 special.onclick = (event) => {
   const specialDiv = event.target
-  specialDiv.classList.toggle("numbers");
+  specialDiv.classList.toggle("box-numbers");
   specialDiv.classList.toggle("hide-number");
-  specialDiv.classList.toggle("snowflakes");
-  specialDiv.classList.toggle("lipstick-show");
+  specialDiv.classList.toggle("snowflakes-img");
+  specialDiv.classList.toggle("lipstick-show-img");
   modal.style.display = "block";
 }
 
@@ -36,7 +36,7 @@ specialMobile.onclick = (event) => {
 
 // Modal
 const modal = document.getElementById("giftModal");
-const span = document.getElementsByClassName("close")[0];
+const span = document.getElementsByClassName("modal-close")[0];
 
 span.onclick = function () {
   modal.style.display = "none"; // close when x clicked
