@@ -356,12 +356,12 @@ p {
 
 .lipstick-hide-img {
   background: url(images/lipstick-hide.png);
-  background-size: 310px;
+  background-size: 100%;
 }
 
 .lipstick-show-img {
   background: url(images/lipstick-show.png);
-  background-size: 310px;
+  background-size: 100%;
 }
 
 .lipstick-modal-img {
@@ -371,7 +371,7 @@ p {
 
 .snowflakes-img {
   background: url(images/snowflakes.png);
-  background-size: 310px;
+  background-size: 100%;
 }
 
 .snowflakes-img:hover {
