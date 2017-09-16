@@ -94,7 +94,7 @@
 
   .numbers {
     font-size: 50px !important;
-    padding-top: 0px !important;
+    padding-top: 5% !important;
   }
 
   /* Modal */
@@ -146,7 +146,7 @@ h3 {
 
 h4 {
   color: #000000;
-	font-family: "Sephora Serif";
+	font-family: "Lucida Console";
 	font-size: 34px;
 	font-weight: 300;
 	line-height: 41px;
@@ -270,7 +270,7 @@ p {
 
 .numbers {
   color: #DDDDDD;
-  font-family: "Sephora Serif";
+  font-family: "Lucida Console";
   font-size: 120px;
   font-style: italic;
   font-weight: 300;
