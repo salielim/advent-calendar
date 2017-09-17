@@ -1,7 +1,6 @@
 // Box Grid
 const todaysDate = new Date();
 const todaysDay = todaysDate.getDate();
-
 const boxGrid = document.getElementById("box-grid");
 
 let newHtml = ""
@@ -54,13 +53,12 @@ const countDownTime = todaysDate.setHours(24, 0, 0, 0); // count to midnight
 const x = setInterval(function () {
   const now = new Date().getTime();
   const distance = countDownTime - now;
-
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); // time calculations
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  const countdownTimerDiv = document.getElementById("countdown-timer")
 
-  document.getElementById("countdown-timer").innerHTML = hours + "h : "
-    + minutes + "m : " + seconds + "s ";
+  countdownTimerDiv.innerHTML = `${ hours }h : ${ minutes }m : ${ seconds }s `;  
 
   if (distance < 0) { // countdown over
     clearInterval(x);
@@ -71,11 +69,10 @@ const x = setInterval(function () {
 // Apply Code Box
 const applyCodeBox = document.getElementById("apply-code");
 applyCodeBox.onclick = function () {
-  document.getElementById("apply-code").innerHTML = "Applying...";
+  applyCodeBox.innerHTML = "Applying...";
 
   setTimeout(function () { 
-    document.getElementById("apply-code").innerHTML = "Applied";
-    document.getElementById("apply-code").className = "applied-disabled"
+    applyCodeBox.innerHTML = "Applied";
+    applyCodeBox.className = "applied-disabled"
   }, 500);
-
 }

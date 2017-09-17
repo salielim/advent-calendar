@@ -6,44 +6,32 @@
 @media screen and (max-width: 500px) {
   /* Typography */
   h3 {
-    margin-left: 3% !important;
-    width: 100% !important;
-    font-size: 10px !important;
+    margin-left: 3%;
   }
 
   h4 {
-    font-size: 35px !important;
     margin-top: -15px;
   }
 
-  p {
-    font-size: 15px !important;
-  }
-
   .seo-text-left {
-    margin-left: 3% !important;
-    padding-right: 3% !important;
+    margin-left: 3%;
     width: 94% !important;
-    font-size: 10px !important;
   }
   
   .seo-text-right {
-    margin-left: 2% !important;
-    padding-right: 2% !important;
+    margin-left: 3% !important;
     width: 96% !important;
-    font-size: 10px !important;
   }
   
   /* Containers */
   .advent-container {
     margin-top: 0 !important;
     margin-left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
+    width: 100%;
+    height: 100%;
   }
 
   .seo-text-container {
-    margin-bottom: 35px;
     flex-direction: column !important;
   }
 
@@ -53,24 +41,14 @@
 
   /* Images */
   .banner-img {
-    padding: 2% !important;
-    width: 100% !important;
-    height: 30% !important;
-  }
-
-  .lipstick-hide-img {
-    background-size: 100% !important;
-  }
-  
-  .lipstick-show-img {
-    background-size: 100% !important;
+    padding: 2%;
   }
 
   .lipstick-mobile-img {
-    width: 96% !important;
+    width: 96%;
     height: auto;
-    margin-left: 2% !important;
-    margin-bottom: 10px !important;
+    margin-left: 2%;
+    margin-bottom: 10px;
     border: 0.3px solid #CCCCCC;
   }
 
@@ -79,14 +57,10 @@
     height: auto !important;
   }
 
-  .snowflakes-img {
-    background-size: 100% !important;
-  }
-
   /* Box Grid */
   #box-grid {
-    width: 96% !important;
-    margin-left: 2% !important;
+    width: 96%;
+    margin-left: 2%;
   }
   
   .box {
@@ -109,11 +83,11 @@
     overflow-y: auto;
     width: 96% !important;
     flex-direction: column !important;
-    min-height: 100% !important;
+    min-height: 100%;
     margin: 2% !important;
-    padding: 5% !important;
-    top: 0 !important;
-    left: 0 !important;
+    padding: 5%;
+    top: 0;
+    left: 0;
   }
 
   .modal-close {
@@ -133,30 +107,27 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
   /* Typography */
   h3 {
-    margin-left: 3% !important;
-    width: 100% !important;
+    margin-left: 3%;
   }
 
   h4 {
-    font-size: 50px !important;
     margin-top: -15px;
     margin-left: -8%;
   }
 
   p {
-    font-size: 15px !important;
     margin-left: -8%;
   }
 
   .seo-text-left {
-    margin-left: 3% !important;
-    padding-right: 3% !important;
+    margin-left: 3%;
+    padding-right: 3%;
     width: 94% !important;
   }
   
   .seo-text-right {
-    margin-left: 2% !important;
-    padding-right: 2% !important;
+    margin-left: 3% !important;
+    padding-right: 3%;
     width: 96% !important;
   }
 
@@ -164,47 +135,31 @@ and (max-device-width : 1024px)  {
   .advent-container {
     margin-top: 0 !important;
     margin-left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
+    width: 100%;
+    height: 100%;
   }
 
   .seo-text-container {
-    margin-bottom: 35px;
     flex-direction: column !important;
   }
 
   /* Images */
   .banner-img {
-    padding: 2% !important;
-    width: 100% !important;
-    height: 30% !important;
+    padding: 2%;
   }
 
   .lipstick-modal-img {
-    margin-left: 15% !important;
-    margin-bottom: 25px !important;
-  }
-
-  .lipstick-hide-img {
-    background-size: 100% !important;
-  }
-  
-  .lipstick-show-img {
-    background-size: 100% !important;
-  }
-
-  .snowflakes-img {
-    background-size: 100% !important;
+    margin-left: 15%;
+    margin-bottom: 25px;
   }
 
   /* Box Grid */
   #box-grid {
-    width: 100% !important;
+    width: 100%;
     padding: 2% !important;
   }
 
   .box {
-    width: 25% !important;
     height: 180px !important;
   }
 
@@ -216,17 +171,16 @@ and (max-device-width : 1024px)  {
   /* Modal */
   .modal {
     width: 96% !important;
-    height: auto !important;
   }
 
   .modal-content {
     overflow-y: auto;
     width: 96% !important;
     flex-direction: column !important;
-    min-height: 100% !important;
-    padding: 8% !important;
-    top: 0 !important;
-    left: 0 !important;
+    min-height: 100%;
+    padding: 8%;
+    top: 0;
+    left: 0;
   }
 
   .modal-close {
@@ -256,8 +210,7 @@ and (max-device-width : 1024px)  {
 /* TYPOGRAPHY */
 /* ---------- */
 h3 {
-	height: 13px;
-	width: 545px;
+	width: 100%;
 	color: #000000;
 	font-family: Verdana;
 	font-size: 16px;
@@ -281,8 +234,7 @@ p {
 }
 
 .seo-text-left {
-  height: 102px;
-  width: 670px;
+  width: 50%;
   color: #000000;
   font-family: Verdana;
   font-size: 16px;
@@ -291,9 +243,8 @@ p {
 }
 
 .seo-text-right {
-  margin-left: 30px;
-  height: 102px;
-  width: 670px;
+  width: 50%;
+  margin-left: 6%;
   color: #000000;
   font-family: Verdana;
   font-size: 16px;
@@ -445,7 +396,7 @@ p {
 }
 
 .modal-close { /* modal close button */
-  font-weight: 100;
+  font-weight: 100px;
   color: #000000;
   float: right;
   font-size: 50px;
