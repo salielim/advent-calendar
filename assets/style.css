@@ -1,211 +1,3 @@
-/* ------------- */
-/* MEDIA QUERIES */
-/* ------------- */
-
-/* MOBILE - iPhone 5, 6; Galaxy 5; Nexus 5X, 6P */
-@media screen and (max-width: 500px) {
-  /* Typography */
-  h3 {
-    margin-left: 3%;
-  }
-
-  h4 {
-    margin-top: -15px;
-  }
-
-  .seo-text-left {
-    margin-left: 3%;
-    width: 94% !important;
-  }
-  
-  .seo-text-right {
-    margin-left: 3% !important;
-    width: 96% !important;
-  }
-  
-  /* Containers */
-  .advent-container {
-    margin-top: 0 !important;
-    margin-left: 0 !important;
-    width: 100%;
-    height: 100%;
-  }
-
-  .seo-text-container {
-    flex-direction: column !important;
-  }
-
-  .gift-container {
-    margin-left: 1% !important;
-  }
-
-  /* Images */
-  .banner-img {
-    padding: 2%;
-  }
-
-  .lipstick-mobile-img {
-    width: 96%;
-    height: auto;
-    margin-left: 2%;
-    margin-bottom: 10px;
-    border: 0.3px solid #CCCCCC;
-  }
-
-  .lipstick-modal-img {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  /* Box Grid */
-  #box-grid {
-    width: 96%;
-    margin-left: 2%;
-  }
-  
-  .box {
-    width: 50% !important;
-    height: 180px !important;
-  }
-
-  .box-numbers {
-    font-size: 50px !important;
-    padding-top: 5% !important;
-  }
-
-  /* Modal */
-  .modal {
-    width: 96% !important;
-    height: auto !important;
-  }
-
-  .modal-content {
-    overflow-y: auto;
-    width: 96% !important;
-    flex-direction: column !important;
-    min-height: 100%;
-    margin: 2% !important;
-    padding: 5%;
-    top: 0;
-    left: 0;
-  }
-
-  .modal-close {
-    position: absolute;
-    left: 87%;
-    top: 1%;
-  }
-
-  .code-box {
-    margin: 7% !important;
-  }
-}
-
-/* TABLETS - iPad, iPad Pro */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {
-  /* Typography */
-  h3 {
-    margin-left: 3%;
-  }
-
-  h4 {
-    margin-top: -15px;
-    margin-left: -8%;
-  }
-
-  p {
-    margin-left: -8%;
-  }
-
-  .seo-text-left {
-    margin-left: 3%;
-    padding-right: 3%;
-    width: 94% !important;
-  }
-  
-  .seo-text-right {
-    margin-left: 3% !important;
-    padding-right: 3%;
-    width: 96% !important;
-  }
-
-  /* Containers */
-  .advent-container {
-    margin-top: 0 !important;
-    margin-left: 0 !important;
-    width: 100%;
-    height: 100%;
-  }
-
-  .seo-text-container {
-    flex-direction: column !important;
-  }
-
-  /* Images */
-  .banner-img {
-    padding: 2%;
-  }
-
-  .lipstick-modal-img {
-    margin-left: 15%;
-    margin-bottom: 25px;
-  }
-
-  /* Box Grid */
-  #box-grid {
-    width: 100%;
-    padding: 2% !important;
-  }
-
-  .box {
-    height: 180px !important;
-  }
-
-  .box-numbers {
-    font-size: 50px !important;
-    padding-top: 5% !important;
-  }
-
-  /* Modal */
-  .modal {
-    width: 96% !important;
-  }
-
-  .modal-content {
-    overflow-y: auto;
-    width: 96% !important;
-    flex-direction: column !important;
-    min-height: 100%;
-    padding: 8%;
-    top: 0;
-    left: 0;
-  }
-
-  .modal-close {
-    position: absolute;
-    left: 87%;
-    top: 2%;
-    font-size: 85px !important;
-  }
-
-  hr {
-    margin-left: -8%;
-  }
-
-  .code-box {
-    margin-left: 20% !important;
-  }
-}
-
-/* DESKTOP */
-@media screen and (min-width: 500px) {
-  .hide-img {
-    display: none; /* hide lipstick-mobile-img */
-  }
-}
-
 /* ---------- */
 /* TYPOGRAPHY */
 /* ---------- */
@@ -386,9 +178,9 @@ p {
   width: 900px;
   display: flex;
   flex-direction: row;
-  -webkit-border-radius: 0px !important; /* remove radius */
-  -moz-border-radius: 0px !important;
-  border-radius: 0px !important; 
+  -webkit-border-radius: 0px; /* remove radius */
+  -moz-border-radius: 0px;
+  border-radius: 0px; 
   -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0); /* remove shadow */
   -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
   -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
@@ -459,4 +251,212 @@ p {
 	line-height: 19px;
   text-align: center;
   padding-top: 10px;
+}
+
+/* ------------- */
+/* MEDIA QUERIES */
+/* ------------- */
+
+/* MOBILE - iPhone 5, 6; Galaxy 5; Nexus 5X, 6P */
+@media screen and (max-width: 500px) {
+  /* Typography */
+  h3 {
+    margin-left: 3%;
+  }
+
+  h4 {
+    margin-top: -15px;
+  }
+
+  .seo-text-left {
+    margin-left: 3%;
+    width: 94%;
+  }
+  
+  .seo-text-right {
+    margin-left: 3%;
+    width: 96%;
+  }
+  
+  /* Containers */
+  .advent-container {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .seo-text-container {
+    flex-direction: column;
+  }
+
+  .gift-container {
+    margin-left: 1%;
+  }
+
+  /* Images */
+  .banner-img {
+    padding: 2%;
+  }
+
+  .lipstick-mobile-img {
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    border: 0.3px solid #CCCCCC;
+  }
+
+  .lipstick-modal-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Box Grid */
+  #box-grid {
+    width: 96%;
+    margin-left: 2%;
+  }
+  
+  .box {
+    width: 50%;
+    height: 180px;
+  }
+
+  .box-numbers {
+    font-size: 50px;
+    padding-top: 5%;
+  }
+
+  /* Modal */
+  .modal {
+    width: 96%;
+    height: auto;
+  }
+
+  .modal-content {
+    overflow-y: auto;
+    width: 96%;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 2%;
+    padding: 5%;
+    top: 0;
+    left: 0;
+  }
+
+  .modal-close {
+    position: absolute;
+    left: 86%;
+    top: -2%;
+  }
+
+  .code-box {
+    margin: 7%;
+  }
+}
+
+/* TABLETS - iPad, iPad Pro */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  /* Typography */
+  h3 {
+    margin-left: 3%;
+  }
+
+  h4 {
+    margin-top: -15px;
+    margin-left: -8%;
+  }
+
+  p {
+    margin-left: -8%;
+  }
+
+  .seo-text-left {
+    margin-left: 3%;
+    padding-right: 3%;
+    width: 94%;
+  }
+  
+  .seo-text-right {
+    margin-left: 3%;
+    padding-right: 3%;
+    width: 96%;
+  }
+
+  /* Containers */
+  .advent-container {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .seo-text-container {
+    flex-direction: column;
+  }
+
+  /* Images */
+  .banner-img {
+    padding: 2%;
+  }
+
+  .lipstick-modal-img {
+    margin-left: 15%;
+    margin-bottom: 25px;
+  }
+
+  /* Box Grid */
+  #box-grid {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .box {
+    height: 180px;
+  }
+
+  .box-numbers {
+    font-size: 50px;
+    padding-top: 5%;
+  }
+
+  /* Modal */
+  .modal {
+    width: 96%;
+  }
+
+  .modal-content {
+    overflow-y: auto;
+    width: 96%;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 8%;
+    top: 0;
+    left: 0;
+  }
+
+  .modal-close {
+    position: absolute;
+    left: 88%;
+    top: -1%;
+    font-size: 85px;
+  }
+
+  hr {
+    margin-left: -8%;
+  }
+
+  .code-box {
+    margin-left: 20%;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 500px) {
+  .hide-img {
+    display: none; /* hide lipstick-mobile-img */
+  }
 }
